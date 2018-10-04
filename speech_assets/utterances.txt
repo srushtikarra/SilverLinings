@@ -1,0 +1,24 @@
+AMAZON.HelpIntent    what can I say
+AMAZON.HelpIntent    what can I ask
+AMAZON.HelpIntent    i need some help please
+AMAZON.HelpIntent    i'm not sure what to do
+AMAZON.StopIntent  no stop
+AMAZON.StopIntent  no
+AMAZON.StopIntent  bye
+AMAZON.StopIntent  i don't want to do this
+AMAZON.StopIntent  i don't need this
+SetBillReminderIntent   Remind me to pay my {payee} bill of {payment_amount} dollars
+SetBillReminderIntent   Remind me to pay the {payee} bill of {payment_amount} dollars
+SetBillReminderIntent   Remind me to pay {payee} {payment_amount} dollars
+SetBillReminderIntent   Remind me to pay {payee} {payment_amount} dollars please
+SetBillReminderIntent   please remind me to pay {payee} {payment_amount} dollars
+SetBillReminderIntent   please remind me to pay my {payee} bill of {payment_amount} dollars
+SetBillReminderIntent   please tell me to pay my {payee} bill of {payment_amount} dollars
+SetBillReminderIntent   tell me to pay my {payee} {payment_amount} dollars
+SetBillReminderIntent   i need to pay {payee} {payment_amount} 
+UpdateBillIntent   i want to pay my {payee} bill
+UpdateBillIntent   i want to pay the {payee} bill please
+UpdateBillIntent   pay {payee} now
+UpdateBillIntent   pay my {payee} bill now please
+UpdateBillIntent   pay {payee} 
+UpdateBillIntent   i want to pay the {payee} bill now

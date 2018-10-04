@@ -1,0 +1,36 @@
+{
+    "intents": [
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        },
+		{
+			"intent": "SetBillReminderIntent",
+            "slots": [
+                {
+                    "name": "payee",
+                    "type": "LIST_OF_COMPANIES"
+                },
+                {
+                    "name": "payment_amount",
+                    "type": "AMAZON.NUMBER"
+                }
+                
+            ]
+		},
+        {
+            "intent": "UpdateBillIntent",
+            "slots": [
+                {
+                    "name": "payee",
+                    "type": "LIST_OF_COMPANIES"
+                }
+            ]
+        }
+    ]
+}
